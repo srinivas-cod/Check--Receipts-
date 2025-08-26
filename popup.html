@@ -1,0 +1,28 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CheckReceipts</title>
+  <link rel="stylesheet" href="popup-style.css">
+</head>
+<body>
+  <h2>CheckReceipts</h2>
+
+  <label id="captchaLabel">Loading CAPTCHA...</label>
+  <input id="captchaInput" type="text" placeholder="Answer here">
+
+  <button id="sendCode">Send OTP</button>
+  <p id="timerDisplay"></p>
+
+  <input id="otpField" type="text" placeholder="Enter OTP">
+  <button id="validateOTP">Validate OTP</button>
+
+  <input id="receiptInput" type="text" placeholder="Enter Receipt Code">
+  <button id="checkReceipt">Check Receipt</button>
+
+  <button id="startScan">Simulate QR Scan</button>
+
+  <p id="result"></p>
+</body>
+<script src="popup-script.js"></script>
+</html>
