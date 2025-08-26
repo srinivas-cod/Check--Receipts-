@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "CheckReceipts - Secure Receipt Validator",
+  "version": "1.0",
+  "description": "Verifies receipt authenticity using OTP and QR scanning.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"]
+}
